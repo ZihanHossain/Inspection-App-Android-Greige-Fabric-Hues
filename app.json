@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "SQ Greige Inspection",
+    "slug": "sq-greige-inspection",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ic_icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "sqhuses.sticker",
+      "icon": "./assets/ic_icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "06948943-1a46-4fba-b9e4-4b2e0a297379"
+      }
+    },
+    "owner": "zihanhossain"
+  }
+}
